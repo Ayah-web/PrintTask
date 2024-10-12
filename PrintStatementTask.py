@@ -65,5 +65,41 @@ print statement.""")
 # print using escaped backlash
 print("This is a backlash:\\")
 
+# bonus: combining a few print statements
+print()
+print("Welcome to bread & butter!")
+print("The owner of the bakery greeted,\"We currently are unavailable to serve you, but we can gladly display our menu\"")
 
+print()
+
+# introduction to items
+print("We have:\ntiramisu\tcroissant\tcake\tbread")
+
+tiramisu_price = 10.50
+croissant_price = 5
+cake_price = 25.99
+bread_price = 7.25
+
+print()
+# prices
+print("Tiramisu would be", tiramisu_price, "dollars")
+print("Croissant would be", croissant_price, "dollars")
+print("Cake would be", cake_price, "dollars")
+print("Bread would be", bread_price, "dollars")
+
+print()
+# example of ordering more than one item
+print("""You're free to mix and match your order whenever, 
+for example:""")
+print("The price of a tiramisu slice and croissant would cost", 
+(tiramisu_price + croissant_price), "dollars")
+
+print()
+# farewell
+print("Alright,",end="")
+print("That's all the time i have for now!")
+
+print()
+print("Thank you for stepping in, take care!", "\u2764")
+print("Bye!" * 2)
 
